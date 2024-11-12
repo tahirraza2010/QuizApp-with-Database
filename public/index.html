@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+    
+    <title>Document</title>
+</head>
+<body onload="nextQuestion()">
+
+    <h1>Quiz Application</h1>
+    <h3 id="timer">2:00</h3>
+
+
+
+
+
+    <div id="div1">
+        <h1>Question</h1><h1 id="one">1</h1>
+
+        <div id="main1">
+        <p id="para"></p>
+        <br>
+    </div>
+
+
+
+        <div class="input">
+            <input  value="1" name="options" onclick="clicked()" type="radio">
+            <label id="opt1" ></label>
+        </div>
+        <br>
+       
+     <div class="input">
+    
+         <input value="2" name="options" class="left "  onclick="clicked()" type="radio">
+         <label  id="opt2" ></label>
+     </div>
+
+        <br>
+      
+
+        <div  class="input" >
+            <input value="3" name="options" onclick="clicked()" type="radio">
+        <label id="opt3" ></label>
+
+
+        </div>
+        <br>
+      
+
+            <div class="input">
+                <input value="4" name="options" class="left " onclick="clicked()" type="radio">
+                <label  id="opt4" ></label>
+            </div>
+
+        <br>
+
+    
+
+    
+    
+    
+    
+    <button class="btn" disabled onclick="nextQuestion() , reset() ,next()" id="btn">Next</button>
+
+    </div>
+    
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

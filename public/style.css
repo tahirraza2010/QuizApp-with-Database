@@ -1,0 +1,32 @@
+body{
+    background-color: gray;
+}
+
+.div1{
+    text-align: center;
+border: 2px solid rgb(0, 0, 0);
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+/* background-color: whitesmoke; */
+width: 350px;
+border-radius: 50px;
+margin: 150px auto 0px auto;
+padding: 3px;
+
+}
+.input{
+    width: 100%;
+    background-color: white;
+    padding: 10px 0px 10px 0px;
+    border-radius: 20px;
+    border: 2px solid grey;
+}
+.btn{
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.btn:hover {
+    background-color: #5ace5e;
+}
+
